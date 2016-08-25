@@ -1,19 +1,8 @@
 # LICEcap Module for Boxen
-[![Build Status](https://travis-ci.org/cpetersen/puppet-licecap.png)](https://travis-ci.org/cpetersen/puppet-licecap)
 
-Install [LICEcap](http://www.cockos.com/licecap/). LICEcap creates shot screencasts as animated GIFs.
 
-## Usage
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-```puppet
-include licecap
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://git.io/v6NlB
